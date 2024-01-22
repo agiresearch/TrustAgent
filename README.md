@@ -16,7 +16,7 @@ Recent advancements in Large Language Models (LLMs) have shown remarkable capabi
 4. Implementation
 
 
-## Process Diagram for OpenAgent
+## Process Diagram for SafeAgent
 <img width="773" alt="Screen Shot 2023-10-23 at 12 26 27 PM" src="https://github.com/agiresearch/OpenAgent/assets/28013619/83d267d2-c69e-47c7-af01-df2ac58af646">
 
 <img width="777" alt="Screen Shot 2023-10-21 at 8 54 43 PM" src="https://github.com/agiresearch/OpenAgent/assets/28013619/288d6c85-0b0a-416b-a0fd-620692e96029">
