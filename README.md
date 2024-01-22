@@ -5,6 +5,7 @@ Recent advancements in Large Language Models (LLMs) have shown remarkable capabi
 
 ## Agent Constitution
 <img width="773" alt="Screen Shot 2024-01-22 at 5 45 55 PM" src="https://github.com/agiresearch/SafeAgent/assets/28013619/5ad4908d-0fa4-4372-9dd1-0281ee7766ae">
+
 Four key considerations when designing an Agent Constitution
 
 1. Scope of Concern
@@ -14,11 +15,6 @@ Four key considerations when designing an Agent Constitution
 3. Format of the Constitution
 
 4. Implementation
-
-
-
-<img width="777" alt="Screen Shot 2023-10-21 at 8 54 43 PM" src="https://github.com/agiresearch/OpenAgent/assets/28013619/288d6c85-0b0a-416b-a0fd-620692e96029">
-
 
 
 ## Process Diagram for OpenAgent
@@ -34,8 +30,8 @@ four agents in the framework:
 
 **evaluator**: having access to the simulator's outcome, evaluate whether the agent fulfills the user instruction and safety requirement in the end
 
-# QuickStart
-## install environment
+## QuickStart
+### install environment
 ```
 conda create --name safe python=3.9
 conda activate safe
@@ -50,8 +46,8 @@ cd safeAgent
 pip install -r requirements.txt
 ```
 
-## run experiment
-### set up API keys
+### run experiment
+#### set up API keys
 If you want to use OpenAI model as base LLM:
 ```
 export OPENAI_API_KEY=your_openai_api_key
@@ -60,7 +56,7 @@ If you want to use Claude model as base:
 ```
 export CLAUDE_API_KEY=your_claude_api_key
 ```
-### run command with different parameters
+#### run command with different parameters
 ```
 domain: medicine, cook, finance, everyday, chemistry
 case_idx: {0,1,2,3,4,5,6,7,8,9}
