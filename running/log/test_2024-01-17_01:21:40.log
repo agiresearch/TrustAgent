@@ -1,0 +1,9 @@
+01/17/2024, 01:21:40: -------print settings-------
+01/17/2024, 01:21:40: ::::::print agent_llm: mistralai/Mixtral-8x7B-Instruct-v0.1::::::
+01/17/2024, 01:21:40: ::::::print simulator_llm: gpt-4::::::
+01/17/2024, 01:21:40: ::::::print safety_checker_llm: gpt-4::::::
+01/17/2024, 01:21:40: ::::::print simulator_type: adv_thought::::::
+01/17/2024, 01:21:40: ::::::print safety_methods: []::::::
+01/17/2024, 01:41:34: Retrieve relevant safety regulations for the current step ...
+01/17/2024, 01:42:17: Retrieve relevant safety regulations for the current step ...
+01/17/2024, 01:43:33: Retrieve relevant safety regulations for the current step ...

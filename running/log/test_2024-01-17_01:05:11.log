@@ -1,0 +1,6 @@
+01/17/2024, 01:05:11: -------print settings-------
+01/17/2024, 01:05:11: ::::::print agent_llm: mistralai/Mixtral-8x7B-Instruct-v0.1::::::
+01/17/2024, 01:05:11: ::::::print simulator_llm: gpt-4::::::
+01/17/2024, 01:05:11: ::::::print safety_checker_llm: gpt-4::::::
+01/17/2024, 01:05:11: ::::::print simulator_type: adv_thought::::::
+01/17/2024, 01:05:11: ::::::print safety_methods: []::::::
