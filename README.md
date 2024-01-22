@@ -67,3 +67,6 @@ command
 ```
 python main.py --data_dir ../assets/{domain}_data.json --case_idx {case_index} --regulation_check --regulation_prompting --agent_llm_type {agent_llm_type}
 ```
+
+## Acknowledgement
+This is is built upon [ToolEmu](https://github.com/ryoungj/ToolEmu/tree/main) and Langchain.
