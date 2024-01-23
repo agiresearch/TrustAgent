@@ -1,6 +1,6 @@
 # SafeAgent: Towards Safe LLM-based Agents through Agent Constitution
 
-<img width="773" alt="Screen Shot 2024-01-22 at 5 45 55 PM" src="https://github.com/agiresearch/SafeAgent/assets/28013619/5ad4908d-0fa4-4372-9dd1-0281ee7766ae">
+<img width="773" alt="key" src="https://github.com/agiresearch/SafeAgent/assets/key.png">
 
 ## Abstract
 Recent advancements in Large Language Models (LLMs) have shown remarkable capabilities in reasoning, prompting a surge in research aimed at developing trust- worthy LLMs. The emergence of LLM-based agents has garnered considerable attention, yet their trustworthiness remains an underexplored area. This aspect is especially critical given the direct interaction of these agents with the physical en- vironment in everyday human activities, placing a premium on their reliability and safety. This paper presents an Agent-Constitution-based framework, SafeAgent, an initial investigation into the improvement of safety dimension of trustworthiness in LLM-based agents. Our findings reveal a concerning deficit in basic safety knowledge and awareness when LLMs function as agents. To address this issue, we propose a framework consisting of threefold strategies: pre-planning enhancement which injects safety knowledge to model prior to plan generation, in-planning enhancement which bolsters safety during plan generation, and post-planning enhancement which ensures safety by post-checking. Through experimental analysis, we demonstrate how these approaches can effectively elevate an LLM agent’s safety by identifying potential challenges. Furthermore, we explore the intricate relationship between an LLM’s general capabilities, such as reasoning, and its efficacy as a safe agent. We argue that a robust reasoning ability is a fundamental prerequisite for an LLM to function safely as an agent. This paper underscores the imperative of integrating safety awareness into the design and deployment of LLM-based agents, not only to enhance their performance but also to ensure their responsible integration into human-centric environments. 
@@ -17,9 +17,9 @@ Recent advancements in Large Language Models (LLMs) have shown remarkable capabi
 
 
 ## Process Diagram for SafeAgent
-<img width="773" alt="Screen Shot 2023-10-23 at 12 26 27 PM" src="https://github.com/agiresearch/OpenAgent/assets/28013619/83d267d2-c69e-47c7-af01-df2ac58af646">
+<img width="773" alt="process" src="https://github.com/agiresearch/SafeAgent/assets/process_diagram.png">
 
-<img width="777" alt="Screen Shot 2023-10-21 at 8 54 43 PM" src="https://github.com/agiresearch/OpenAgent/assets/28013619/288d6c85-0b0a-416b-a0fd-620692e96029">
+<img width="777" alt="post" src="https://github.com/agiresearch/SafeAgent/assets/post.png">
 
 ### four agents in the framework: 
 
