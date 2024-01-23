@@ -1,4 +1,4 @@
-# SafeAgent: Towards Safe LLM-based Agents through Agent Constitution
+# TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution
 
 <img width="773" alt="key" src="https://github.com/agiresearch/SafeAgent/blob/main/assets/key.png">
 
