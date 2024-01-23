@@ -1,9 +1,9 @@
 # TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution
 
-<img width="773" alt="key" src="https://github.com/agiresearch/SafeAgent/blob/main/assets/key.png">
+<img width="773" alt="key" src="https://github.com/agiresearch/TrustAgent/blob/main/assets/key.png">
 
 ## Abstract
-Recent advancements in Large Language Models (LLMs) have shown remarkable capabilities in reasoning, prompting a surge in research aimed at developing trust- worthy LLMs. The emergence of LLM-based agents has garnered considerable attention, yet their trustworthiness remains an underexplored area. This aspect is especially critical given the direct interaction of these agents with the physical en- vironment in everyday human activities, placing a premium on their reliability and safety. This paper presents an Agent-Constitution-based framework, SafeAgent, an initial investigation into the improvement of safety dimension of trustworthiness in LLM-based agents. Our findings reveal a concerning deficit in basic safety knowledge and awareness when LLMs function as agents. To address this issue, we propose a framework consisting of threefold strategies: pre-planning enhancement which injects safety knowledge to model prior to plan generation, in-planning enhancement which bolsters safety during plan generation, and post-planning enhancement which ensures safety by post-checking. Through experimental analysis, we demonstrate how these approaches can effectively elevate an LLM agent’s safety by identifying potential challenges. Furthermore, we explore the intricate relationship between an LLM’s general capabilities, such as reasoning, and its efficacy as a safe agent. We argue that a robust reasoning ability is a fundamental prerequisite for an LLM to function safely as an agent. This paper underscores the imperative of integrating safety awareness into the design and deployment of LLM-based agents, not only to enhance their performance but also to ensure their responsible integration into human-centric environments. 
+Recent advancements in Large Language Models (LLMs) have shown remarkable capabilities in reasoning, prompting a surge in research aimed at developing trust- worthy LLMs. The emergence of LLM-based agents has garnered considerable attention, yet their trustworthiness remains an underexplored area. This aspect is especially critical given the direct interaction of these agents with the physical en- vironment in everyday human activities, placing a premium on their reliability and safety. This paper presents an Agent-Constitution-based framework, TrustAgent, an initial investigation into the improvement of safety dimension of trustworthiness in LLM-based agents. Our findings reveal a concerning deficit in basic safety knowledge and awareness when LLMs function as agents. To address this issue, we propose a framework consisting of threefold strategies: pre-planning enhancement which injects safety knowledge to model prior to plan generation, in-planning enhancement which bolsters safety during plan generation, and post-planning enhancement which ensures safety by post-checking. Through experimental analysis, we demonstrate how these approaches can effectively elevate an LLM agent’s safety by identifying potential challenges. Furthermore, we explore the intricate relationship between an LLM’s general capabilities, such as reasoning, and its efficacy as a safe agent. We argue that a robust reasoning ability is a fundamental prerequisite for an LLM to function safely as an agent. This paper underscores the imperative of integrating safety awareness into the design and deployment of LLM-based agents, not only to enhance their performance but also to ensure their responsible integration into human-centric environments. 
 
 ### Agent Constitution: Four key considerations when designing an Agent Constitution
 
@@ -16,10 +16,10 @@ Recent advancements in Large Language Models (LLMs) have shown remarkable capabi
 4. Implementation
 
 
-## Process Diagram for SafeAgent
-<img width="773" alt="process" src="https://github.com/agiresearch/SafeAgent/blob/main/assets/process_diagram.png">
+## Process Diagram for TrustAgent
+<img width="773" alt="process" src="https://github.com/agiresearch/TrustAgent/blob/main/assets/process_diagram.png">
 
-<img width="777" alt="post" src="https://github.com/agiresearch/SafeAgent/blob/main/assets/post.png">
+<img width="777" alt="post" src="https://github.com/agiresearch/TrustAgent/blob/main/assets/post.png">
 
 ### four agents in the framework: 
 
@@ -42,8 +42,8 @@ cd PromptCoder
 pip install -e .
 cd ..
 
-git clone https://github.com/agiresearch/safeAgent.git
-cd safeAgent
+git clone https://github.com/agiresearch/TrustAgent.git
+cd TrustAgent
 pip install -r requirements.txt
 ```
 
