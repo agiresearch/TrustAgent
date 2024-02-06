@@ -1,5 +1,7 @@
 # TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution
 
+<a href='https://arxiv.org/abs/2402.01586'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+
 <img width="773" alt="key" src="https://github.com/agiresearch/TrustAgent/blob/main/assets/key.png">
 
 ## Abstract
@@ -67,6 +69,18 @@ command
 ```
 python main.py --data_dir ../assets/{domain}_data.json --case_idx {case_index} --regulation_check --regulation_prompting --agent_llm_type {agent_llm_type}
 ```
+
+## Citation
+
+```
+@article{hua2024trustagent,
+      title={TrustAgent: Towards Safe and Trustworthy LLM-based Agents through Agent Constitution}, 
+      author={Wenyue Hua and Xianjun Yang and Zelong Li and Cheng Wei and Yongfeng Zhang},
+      journal={arXiv:2402.01586},
+      year={2024}
+}
+```
+
 
 ## Acknowledgement
 This is is built upon [ToolEmu](https://github.com/ryoungj/ToolEmu/tree/main) and Langchain.
